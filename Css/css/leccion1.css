@@ -1,0 +1,21 @@
+/*h1{
+    color: antiquewhite !important;
+}*/
+*{/*css para toso el documento*/
+    background-color: ghostwhite;
+    /*color: cornflowerblue;*/
+}
+#titulo{
+    color: crimson;
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+
+}
+.textoGrande{
+    font-size: 20px;
+}
+p.centrar{/*solamente va a servir para los parrafos ya que tiene la p.*/
+    text-align: center;
+}
