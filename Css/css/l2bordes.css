@@ -1,0 +1,31 @@
+.punteado{
+    border-style: dotted;
+}
+.discontinuo{
+    border-style: dashed;
+}
+.solido{
+    border-style: solid;
+}
+.doble{
+    border-style: double;
+}
+.surco{
+    border-style: groove;
+    border-width: 10px;
+}
+.cresta{
+    border-style: ridge;
+    border-width: 10px;
+}
+.recuadro{
+    border-style: inset;
+    border-width: 10px;
+}
+.outset{
+    border-style: outset;
+    border-width: 10px;
+}
+.mixto{
+    border-style: dotted solid dashed double;
+}
