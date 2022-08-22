@@ -8,7 +8,13 @@
     border-width: thick;
 }
 .solido{
-    border-style: solid;
+    border: solid crimson;
+    border-width: 5px;
+   border-radius: 15px;
+}
+.redondeado{
+    border: 5px solid blueviolet;
+    border-radius: 15px 0px 10px 0px;
 }
 .doble{
     border-style: double;
