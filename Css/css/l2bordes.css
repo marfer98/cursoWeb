@@ -1,14 +1,18 @@
 .punteado{
     border-style: dotted;
+    border-width: 10px 5px 3px 2px;
+    border-color: rgba(220, 20, 60, 0.213) hotpink gold lime;
 }
 .discontinuo{
     border-style: dashed;
+    border-width: thick;
 }
 .solido{
     border-style: solid;
 }
 .doble{
     border-style: double;
+    border-width: medium;
 }
 .surco{
     border-style: groove;
