@@ -1,0 +1,35 @@
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+}
+.caja{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+.caja.serif{
+    background-color: #5a189a;
+}
+.fuenteTimes{
+    font-family: 'Times New Roman', Times, serif;
+}
+.fuenteGeorgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.caja.sansSerif{
+    background-color: #00b4d8;
+}
+.fuenteArial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fuenteVerdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
