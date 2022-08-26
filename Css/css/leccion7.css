@@ -20,9 +20,16 @@ h1{
 }
 .fuenteTimes{
     font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: x-large;
 }
 .fuenteGeorgia{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2vw;/*view width (viewport) 1vw = 1%*/
 }
 .caja.sansSerif{
     background-color: #00b4d8;
@@ -32,4 +39,16 @@ h1{
 }
 .fuenteVerdana{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.caja.monospace{
+    background-color: #f15bb5;
+}
+.fuenteCourier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.caja.cursiva{
+    background-color: #ff8500;
+}
+.fuenteCursiva{
+    font-family: 'Lucida Handwriting', cursive;
 }
