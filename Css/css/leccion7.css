@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css?family=Princess+Sofia&effect=shadow-multiple&display=swap');
 h1{
     color: #ef476f;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #ced4da;
+    font-family: 'Sofia', cursive;
+    /*font: font-style:  font-variant:  font-weight: font-size: line-height: orden de prelacion*/
 }
 .caja{
     padding: 5px;
