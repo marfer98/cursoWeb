@@ -1,12 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/leccion11.css">
+    <title>Selectores combinados en CSS</title>
 </head>
+
 <body>
-    
+    <h1>Selectores combinados en CSS</h1>
+    <div class="contenedor descendiente">
+        Selectores descendientes (en cualquier nivel interno)
+        <p>Primer</p>
+        <p>Segundo</p>
+        <section>
+            <p>Tercero</p>
+        </section>
+    </div>
+    <div class="contenedor hijo">
+        Selectores Hijo (child)
+        <p>Primer</p>
+        <p>Segundo</p>
+        <section>
+            <p>Tercero</p>
+        </section>
+        <div>
+            <p>cuarto</p>
+        </div>
+        <p>quinto</p>
+    </div>
+    <div class="contenedor adyacente">
+        Selectores adyasente
+        <p>Primer</p>
+        <p>Segundo</p>
+    </div>
+    <p>parrafo adyacente 1</p>
+    <p>parrafo adyacente 2</p>
+    <div class="contenedor adyacente">
+        Selectores adyasente
+        <p>Primer</p>
+        <p>Segundo</p>
+    </div>
+    <p>parrafo adyacente 1</p>
+    <p>parrafo adyacente 2</p>
+
+    <div class="contenedor hermano">
+        Selectores Hermano
+        <p>Primer</p>
+        <p>Segundo</p>
+    </div>
+    <p>parrafo adyacente 1</p>
+    <p>parrafo adyacente 2</p>
+
+    <h1>Pseudo Clases en Css</h1>
+
+    <div class="contenedor oculto">
+        Pasa por encima 
+        <p >Se muestra el parrafo</p>
+    </div>
+    <div class="contenedor primero">
+        Pasa por encima 
+        <p >Se muestra el parrafo</p>
+    </div>
+
+    <h1>Pseudo Elementos en CSS</h1>
+    <div class="contenedor">
+        <p>Selecciona el Elemento</p>
+        <p>Consequat exercitation reprehenderit non nulla ut deserunt nulla aute ea aute qui. Anim proident velit ad Lorem sunt non elit sit enim esse laborum occaecat. Amet eu consectetur sit aute nulla. Dolor nostrud consectetur dolore sint sint.</p>
+    </div>
+
 </body>
+
 </html>
