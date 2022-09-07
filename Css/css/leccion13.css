@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63406;
+}
+div.contenedor{
+    display: flex;
+    background-color: #560bad;
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: row-reverse;
+    flex-wrap: wrap; /*al hacer más pequeña la ventana se mueven los elementos*/
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 300px;
+    /*alinear en el eje vertical*/
+    align-items: center;
+    /*alinear los elementos en el caso que haya uno mas largo en el centro de cada texto
+    align-items: baseline;
+    flex end alinea hacia abajo*/
+    align-content: center;
+}
+div.contenedor > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 20px;
+}
