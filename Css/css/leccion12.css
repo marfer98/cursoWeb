@@ -5,7 +5,15 @@ html{
     min-height: 100%;
 }
 body{
-    background: linear-gradient(#f73585, #3a0ca3);
+    /*background: linear-gradient(#f73585, #3a0ca3);*/
+    /*background: linear-gradient(to right, #f73585, #3a0ca3);*/
+    /*background: linear-gradient(#24404d, #6dbff1, #000 );*/
+    /*background: linear-gradient(to bottom right, #24404d, #6dbff1, #000 );*/
+    /*background: linear-gradient(140deg, #24404d, #6dbff1, #000 );/*deg es angulo*/
+    background: radial-gradient( #24404d, #6dbff1, #000);
+
+    color: #f1faee;
+   
 }
 h1{
     text-align: center;
