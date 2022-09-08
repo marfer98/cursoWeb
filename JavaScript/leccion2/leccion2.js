@@ -62,6 +62,6 @@ console.log(nombreCompleto);
 var x = nombre1 + 1998
 console.log(x);
 
-x= nombre1 +(2/5);
+x= nombre1 +(25);
 console.log(x);
 
