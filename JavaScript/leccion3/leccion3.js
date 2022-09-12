@@ -85,7 +85,7 @@ if(par % 2 == 0){
     console.log("impar");
 }
 
-let edad = 20, adulto =18;
+/*let edad = 20, adulto =18;
 if(edad >=adulto){
     console.log("puede quitar chip a su nombre");
 }else{
@@ -117,4 +117,33 @@ console.log(resultado)
 
 let numero = 7;
 resultado =(numero % 2 == 0) ? "Numero par" : "Numero Impar";
-console.log(resultado)
+console.log(resultado);*/
+
+//String a numero
+let miNumero = "17c";
+//console.log(typeof miNumero);
+
+let edad = Number(miNumero); //Number esa función convierte un string a number
+console.log(typeof edad);
+
+if (isNaN(edad)){
+    console.log("No es numero");
+}else{
+    if (edad >= 18){
+        console.log("Puede votar");
+    }else{
+        console.log("No puede votar");
+    }
+}
+//ternario
+if (isNaN(edad)){
+    console.log("No es numero");
+}else{
+    if (edad >= 18){
+        console.log("Puede votar");
+    }else{
+        miNumero =(edad >= 18) ? "Puede votar" : "No puede votar";
+        console.log(miNumero)
+    }
+}
+
