@@ -1,6 +1,7 @@
 //Funciones 
 function miFuncion (a,b){
     //console.log("suma: " + (a+b));
+    console.log(arguments.length);
     return a+b;
 }
 //llamado de funcion
@@ -17,3 +18,9 @@ console.log(resultado);
     console.log("Ejecutando la funcion: " + (a+b));
 })(2,6);
 
+var  miFuncionTexto = miFuncion.toString();
+console.log(miFuncionTexto);
+
+const sumarFuncionTipoFlecha = (a,b) => a+b;
+resultado = sumarFuncionTipoFlecha (4,8);
+console.log(resultado);
